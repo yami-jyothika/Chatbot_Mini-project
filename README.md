@@ -14,31 +14,31 @@ browse the internet for information.
 This chatbot is available around the clock to provide users with
 access to information and support whenever they need it.
 
-#Introduction
+#Introduction:
 Before consulting a doctor, this healthcare chatbot provides basic information about the illness and the respective precautions to be taken.
 Healthcare chatbots provide helpful information instantly. The people can connect to this chatbot and can get a appropriate precautions to be taken.
 
-#Problems in existing System
+#Problems in existing System:
 The chatbot's medical knowledge is not up to date and aligned with the latest medical research and guidelines.
 
-#Proposed System
+#Proposed System:
 The chatbot will have the ability to personalize responses based on the users provided Symptoms.
 The chatbot will assist users in understanding their symptoms and potential diagnoses and suggests some possible Precautions to be taken.
 
-#Objective
+#Objective:
 The users can access the chatbot's assistance at any time, bridging the gap between office hours and urgent health inquiries.
 This technology aims to provide quick and accurate responses.
 
-#Project Domain
+#Project Domain:
 A healthcare chatbot typically involves elements of artificial intelligence (AI).
 
-#Methodology
+#Methodology:
 The chatbot starts working the moment a user types in input, or a query that they want answer to.
 Chatbot collects such textual input and analyses it.  
 Chatbot matches the intent with the dataset to fetch relevant information.
 The chatbot produces a response which is then communicated to the user.
 
-#Implementation
+#Implementation:
 Import the necessary libraries
 Load JSON intent data
 Tokenize the pattern into words using NLTK's word_tokenize function.
@@ -49,7 +49,7 @@ Fit the model with training data ('train_x' and 'train_y') for a specified numbe
 Save the trained model as 'model.h5’.
 The html file index.html is connected to the training.py file using the flask framework.
 
-#Future Scope
+#Future Scope:
 Advanced Diagnosis and Symptom Assessment
 Medication Management
 Health and Fitness Tracking
