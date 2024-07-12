@@ -1,0 +1,211 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Is anyone there?","Hey","Hola", "Hello","Hi"],
+         "responses": ["Hello,Enter the symptom you are suffering from.Please Enter 3 or more symptoms for accurate prediction."],
+         "context": [""]
+        },
+        
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["How are you","How are you doing","What are you Doing"],
+         "responses": ["Doing good,Thanks for asking!Enter the symptom you are experiencing."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","ok","Okay", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["...",".","..",".....","!","!!!"],
+         "responses": ["Sorry, can't understand you","Please provide valid Symptom", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Iam a trained bot.I can assist you in knowing the issue you are facing based on the symptoms you are providing.Enter the symptom you are experiencing right now."],
+         "context": [""]
+        },
+        {"tag": "Allergy",
+         "patterns": ["continuous sneezing" ,"shivering","chills","watering from eyes","continuous sneezing, shivering","shivering, chills","continuous sneezing, chills","chills,shivering","watering from eyes, continuous sneezing","continuous sneezing, chills,shivering","watering from eyes,shivering,chills","watering from eyes,continuous sneezing,chills","continuous sneezing,shivering,chills"],        
+         "responses": ["You may have Allergy.\nAn allergy is an immune system response to  foreign susbstance that is not typically harmfull to your body.They can include certain foods, pollen, pet dander. Your immune system's job is to keep you healthy but fighting harmfull pathogens.\nPrecautions:apply calamine cover with bandage, use ice to compress itching."],
+         "context": [""]
+        },
+        {"tag": "Diabetes",
+         "patterns": ["fatigue", "weight loss","restlessness","lethargy","irregular sugar level","blurred and distorted vision","obesity","excessive hunger","increased appetite","fatigue,weight loss","restlessness,lethargy","irregular sugar level,obesity","excessive hunger,increased appetite","weight loss, execessive hunger,increased appetite,lethargy","irregular sugar level,obesity,increased appetite,blurred and disorted vision","irregular sugar level,blurred and disorted vision,excessive hunger","lethargy,weight loss fatigue","restlessness,excessive hunger,irregular sugar level"],
+         "responses": ["You may have diabetes.\nDiabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy.\nPrecautions:have balanced diet,exercise,consult doctor"],
+         "context": [""]
+        },
+        {"tag": "Typhoid",
+         "patterns": ["fever", "headache", "constipation", "malaise", "chills", "muscle pain","fever,headache","fever,constipation","fever,malaise","chills,fever","fever,muscle pain","fever,constipation,muscle pain","muscle pain, headache,constipation","malaise,chills,fever","constipation,fever,chills","chills,muscle pain,constipation","fever,headache,constipation,malaise,chills,muscle pain"],
+         "responses": ["You may have typhoid.\nTyphoid is an acute illness characterized by fever caused by infection with the bacterium Salmonella typhi.Precautions:eat high calorie vegitables,antiboitic therapy,consult doctor,medication"],
+         "context": [""]
+        },
+        {"tag": "Migraine",
+         "patterns": ["acidity","indigestion","severe headache","stiff neck","depression","irritability","acidity,indigestion","severe headache,stiff neck","stiff neck,depression","acidity,severe headache,stiff neck","depression,irritability,acidity,indigestion","stiff neck,indigestion,acidity","depression,severe headache,acidity","acidity,depression,irritability,indigestion,stiff neck","aciditiy,severe headache,depression","depression,indigestion,acidity","acidity,severe,headache,depression,irritability","acidity,indigestion,severe headache,stiff neck,depression,irritability,acidity,indigestion"],
+         "responses": ["You may have migraine.\nA migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can so severe.\nPrecautions:meditation, reduce stress,use poloroid glasses in sun, consult doctor"],
+         "context": [""]
+        },
+        {"tag": "Jaundice",
+         "patterns": ["vomiting", "weight loss","yellowish skin","abdominal pain","high fever","dark urine","vomiting,weight loss","weight loss,yellowish skin","abdominal pain,high fever","dark urine,vomiting","weight loss,high fever,dark urine","dark urine,high fever,yellowish skin","yellowish skin,vomiting,abdominal pain","high fever,weight loss,abdominal pain","high fever,dark urine,weight loss","weight loss, yellowish skin,dark urine,high fever","high fever,dark urine,vomiting,weight loss,abdominal pain","abdominal pain,weight loss,yellowish skin,dark urine,high fever"],
+         "responses": ["You may suffer with Jaundice.\nYellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues.\nPrecautions:drink plenty of water,consume milk thistle,eat fruits and high fiberous food,follow medication"],
+         "context": [""]
+        },
+        {"tag": "Asthma",
+         "patterns": ["fatigue","cough","breathlessness","fatigue,cough,breathlessness","fatigue,cough","cough,breathlessness","breathlessness,fatigue"],
+         "responses": ["You may have Asthma.\nAsthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling the air path produces excess mucus to hard to breathe which results in short breathe and wheezing.\nPrecautions:don't be in cool places for longer time, follow good medication, consult a doctor"],
+         "context": [""]
+        },
+        {
+                "tag": "Thyroid",
+                         
+                "patterns": ["fatigue","weight gain","cold hands","dizziness","puffy face","fever","enlarged thyroid gland","fatigue,weight gain,cold hands,dizziness,puffy face,enlarged thyroid gland","fatigue,weight gain","cold hands,dizziness","puffy face,enlarged thyroid gland","enlarged thyroid gland,weight gain,dizziness,fatigue","enlarged thyroid gland,cold hands,fever,weight gain","puffy face,enlarged thyroid gland,fatigue","dizziness,puffy face,cold hands","enlarged thyroid gland,weight gain,fever"],
+                         
+                "responses": ["You may have thyroid.\nThyroid occurs when  your thyroid gland produces too much of the hormone thyroxine.\nPrecautions:eat healthy food, take radioactive iodine treatment, regular medication, consult a doctor"],
+                         
+                "context": [""]
+                        
+        },
+        {
+                "tag": "TB",
+                         
+                "patterns": ["weightloss","extreme cough","high fever","headache","sweating","vomiting","weightloss,extreme cough,high fever,headache,sweating,vomiting","weightloss,extreme cough,high fever,headache","high fever,headache,sweating,vomiting","weightloss,extreme cough","headache,sweating","headache,sweating,vomiting","weightloss,extreme cough","high fever,headache","extreme cough,high fever","weightloss,sweating","severe cough, high fever","weightloss,vomiting","vomiting,high fever,weightloss"],
+                         
+                "responses": ["You may have TB.\nTB is an infectious disease usually caused by Mycobacterium tuberculosos bateria. It afffects lungs and other body parts.\nPrecautions:cover mouth with a mask, consult a doctor, follow good medication"],
+                         
+                "context": [""]
+                        
+        },
+                
+        {
+                "tag": "Gastroenteritis",
+                         
+                "patterns": ["suken eyes","dehydration","vomoting","diarrhoea","suken eyes,dehydration,vomoting,diarrhoea","suken eyes,dehydration","vomoting,diarrhoea","suken eyes,dehydration,vomoting","dehydration,vomoting,diarrhoea","vomoting,suken eyes","diarrhoea,dehydration"],
+                         
+                "responses": ["You may have gastroenteritis.\nGastroenteritis is an inflammation of digestive tract, prticularly large and small intestines.\nprecautions:eat time to time, reduce food with more spicies, reduce food with citric acids"],
+                         
+                "context": [""]
+                        
+        },
+        {"tag": "Hypertension",
+         
+         "patterns": ["headache","chest pain","dizziness","lost balance","headache,chest pain,dizziness,lost balance","headache,chest pain,dizziness","dizziness,lost balance","chest pain,dizziness,lost balance","chest pain,dizziness","lost balance,headache"],
+         
+         "responses": ["You may have Hypertension.\nHypertension is long term medical condition in which the blood pressure in artheries is persistently elevated it is also called as blood pressure(bp).\nprecautions:regular meditation, reduce salt intake, reduce stress, get proper sleep"],
+         
+         "context": [""]
+        },
+        {
+                "tag": "sinus",
+                "patterns": ["stuffy nose","cough","headache","sore throat","stuffy nose,cough,headache,sore throat","stuffy nose,cough","headache,sore throat","cough,headache,sore throat","stuffy nose,cough,headache","stuffy nose,sore throat"],
+                "responses": ["You may have Sinus.\nSinus occurs as the result of inflammatory reaction and infection from virus, bacteria,fungus.\nPrecautions:drink plenty of water, avoid cold drinks and cold foods, don't get wet in rain,consult a doctor"],
+                "context": [""]
+        },
+        {
+                "tag": "Dengue",
+                "patterns": ["high fever","severe headache","vomiting","swollen glands","joint pains","high fever,severe headache,joint pains,vomiting,swollen glands","high fever,severe headache","severe headache,joint pains,vomiting,swollen glands","high fever,joint pains,severe headache,vomiting"],
+                "responses": ["You may have dengue.\nDengue is a viral infection that is caused from the mosquitoes.\nPrecautions:prevent yourself from mosquitoes,consult a doctor and follow good medication."],
+                "context": [""]
+        },
+        {
+                "tag": "PCOS",
+                "patterns": ["weight gain","irregular periods","hair loss","acne","weight gain,irregular periods,hair loss,acne","weight gain,irregular periods","irregular periods,hair loss,acne","weight gain,irregular periods,hair loss","hair loss,acne,weight gain","irregular periods,hair loss"],
+                "responses": ["You may have PCOS(Polycystic Ovary Syndrome).\nPCOS is condition where you have unusual or very long periods.\nPrecautions:Avoid fried foods, avoid fat contained foods, consult a doctor and follow good medication."],
+                "context": [""]
+        }, 
+        {
+                "tag": "Stress",
+                "patterns": ["high bp","low sleep","sore eyes","headache","sweating","high bp,low sleep,sweating,sore eyes,headache","high bp,low sleep","high bp,low sleep,sore eyes","low sleep,sweating,sore eyes,headache","high bp,low sleep","low sleep,sore eyes","high bp,sweating,headache"],
+                "responses": ["You may have Stress.\nStress is a state if worry and anxiety.\nPrecautions:regular yoga or meditation, sleep well,eat well balanced meals,avoid alcohol,tobacco"],
+                "context": [""]
+        },  
+        {"tag":"Acidity",
+        "patterns":["chest pain","abdominal pain","heartburn","obesity","sour burps","chest pain,abdominal pain,heartburn,obesity,sour burps","obesity,sour burps","chest pain,abdominal pain","abdominal pain,heartburn","abdominal pain,heartburn,obesity","sour burps,chest pain,heartburn","chest pain,abdominal pain,heartburn","heart burn,sour burps,obesity"],
+        "responses":["You may have acidity.\nAcidity caused by consuming extra spicy food,coffee,overeating,consuming low fibre food.\nPrecautions:consume low spice food, drink water frequently, drink milk regularly, follow natural remedies"],
+        "context":[""]
+        },
+
+        {"tag":"Fever",
+        "patterns":["high body temperature, body pains, cold, cough"],
+        "responses":["You may have fever.Fever in humans is defined as having a body temperature above the normal range due to an increase in the body's temperature set point in the hypothalamus. Precautions:More liquid food intake, avoid spicies, take good medication, consult a doctor if temperature of baody is greater than 100F"],
+        "context":[""]
+        },
+
+        {"tag":"Malaria",
+        "patterns":["muscle pain, night sweats,shivering,vomiting,headache,fever"],
+        "responses":["You may have Malaria.Malaria is a mosquito-borne infectious disease that affects humans and other vertebrates.Human malaria causes symptoms that typically include fever, fatigue, vomiting, and headaches.Precautions:use mosquito nets, consult a doctor and follow good medication"],
+        "context":[""]
+        },
+
+        {"tag":"Chicken pox",
+        "patterns":["red spots on skin, fatigue, fever, itching, sore throat, scab, loss of apetite"],
+        "responses":["You may have Chicken pox.Chicken pox, also known as varicella, is a highly contagious, vaccine-preventable disease caused by the initial infection with varicella zoster virus (VZV), a member of the herpesvirus family.Precautions:get two doses of chicken pox vaccine, avoid contact with others who might be susceptible, consult a doctor."],
+        "context":[""]
+        },
+
+        {"tag":"Polio",
+        "patterns":["stiffiness of neck, pain in limbs, fatigue, vomiting"],
+        "responses":["You may have Polio.Poliomyelitis, commonly shortened to polio, is an infectious disease caused by the poliovirus.Approximately 75% of cases are asymptomatic.mild symptoms which can occur include sore throat and fever in a proportion of cases more severe symptoms develop such as headache, neck stiffness, and paresthesia.Precautions:Get vaccinated and stay hygiene"],
+        "context":[""]
+        },
+
+        {"tag":"Cholera",
+        "patterns":["leg cramps, vomiting, watery diarrhea"],
+        "responses":["You may have Cholera.Cholera is an infection of the small intestine by some strains of the bacterium Vibrio cholerae.Symptoms may range from none, to mild, to severe.The classic symptom is large amounts of watery diarrhea lasting a few days.Vomiting and muscle cramps may also occur.Diarrhea can be so severe that it leads within hours to severe dehydration and electrolyte imbalance.Precautions:Stay hydrated, stay hygiene and consult a doctor"],
+        "context":[""]
+        },
+
+        {"tag":"Breast Cancer",
+        "patterns":["swelling of breast skin, scaling of breast skin, flaking of breast skin, readness of breast skin, change in size"],
+        "responses":["You may have Breast Cancer.Breast cancer is cancer that develops from breast tissue.Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, milk rejection, fluid coming from the nipple, a newly inverted nipple, or a red or scaly patch of skin.In those with distant spread of the disease, there may be bone pain, swollen lymph nodes, shortness of breath, or yellow skin.Precautions:Stay away from alcohol, smoking, spicy food, sugars. Must consult a doctor and get good treatment"],
+        "context":[""]
+        },
+   
+         {"tag":"Stomach Ache",
+        "patterns":["severe pain in stomach, stomach pain, constipation, bloating"],
+        "responses":["You may have Stomach Ache.Abdominal pain, also known as a stomach ache, Is a symptom associated with both non-serious and serious medical issues. Since the abdomen contains most of the body's vital organs, it can be an indicator of a wide variety of diseases. Given that, approaching the examination of a person and planning of a differential diagnosis is extremely important.Precautions:Drink plenty of water, fluids. Reduce intake of alcohol,coffee,tea."],
+        "context":[""]
+        },
+
+         {"tag":"Small pox",
+        "patterns":["backache, vomiting, diarrhoea, severe headache, malaise, skin rashes"],
+        "responses":["You may have Small pox.The initial symptoms of the disease included fever and vomiting.This was followed by formation of ulcers in the mouth and a skin rash.Over a number of days, the skin rash turned into the characteristic fluid-filled blisters with a dent in the center.The bumps then scabbed over and fell off, leaving scars.Precautions:Get vaccinated, consult a doctor."],
+        "context":[""]
+        },
+  
+         {"tag":"Diphtheria",
+        "patterns":["gray throat, tonsils pain, sore throat, nasal discharge, fever, tiredness"],
+        "responses":["You may have Diphtheria. It causes through respiratory droplets(cough,sneeze)Precautions:wear facemasks, gloves, gowns"],
+        "context":[""]
+        },
+
+         {"tag":"Hemophilia",
+        "patterns":["tightness in joints, blood in urine, nosebleeds, bleeding after surgery"],
+        "responses":["You may have Hemophilia.Precautions:exercise regularly, get good medication."],
+        "context":[""]
+        },
+ 
+         {"tag":"Influenza",
+        "patterns":["stuffy nose, fever, sore throat, body aches"],
+        "responses":["You may have Influenza. It causes through respiratory droplets(cough,sneeze)Precautions:wear facemasks, gloves, gowns"],
+        "context":[""]
+        },
+
+          {"tag":"Ebola",
+        "patterns":["red eyes, hiccups, skin rash"],
+        "responses":["You may have Ebola. It causes through respiratory droplets(cough,sneeze)Precautions:wear facemasks, gloves, gowns"],
+        "context":[""]
+        },
+      {
+        "tag":"COVID",
+      "patterns":["fever,cold,cough,body pains,throat pain"],
+      "responses":["You may have COVID.Get a COVID test if it is postive consult a doctor and get good treatment."],
+        "context":[""]
+        }           
+        
+   ]
+}
